@@ -1,0 +1,167 @@
+* {
+    font-family: Barlow Semi, Condensed, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px) 
+{
+    .nav-estilo {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 580px) {
+    
+    .nav-estilo {
+        font-size: 80%;
+    }
+    
+    .texto-div {
+        font-size: 80%;
+    }
+
+    main {
+        font-size: 80%;
+    }
+
+    h5 {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .nav-estilo {
+        font-size: 65%;
+    }
+    
+    .texto-div {
+        font-size: 65%;
+    }
+
+    main {
+        font-size: 65%;
+    }
+
+    h5 {
+        font-size: 65%;
+    }
+}
+
+a:hover {
+    color:#4e7999;
+}
+
+.foto {
+    margin-left:2%;
+    float: left;
+    width: 250px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+.foto-div {
+    position: relative;
+    width: auto;
+}
+
+.texto-div{
+    padding: 4%;
+    position: relative;
+    align-items: center;
+    width: 70%;
+}
+
+.iconos {
+    float:left; 
+    height:20px;
+    width:20px;
+    padding-left: 0.5%;
+    padding-top: 0.1%;
+}
+
+.container-iconos {
+    width:100%;
+    height:auto;
+}
+
+.separar {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.centrarLista {
+    text-align: center;
+}
+
+.centrarListaInterna {
+    display:inline-block;
+    font-size: 18px;
+}
+
+body {
+    font-size: large;
+    background-color: #fffcf6;
+}
+
+header {
+    display: flex;
+    font-size: larger;
+    background-color: #99948f;
+    height: max-content;
+    padding: 2rem;
+    border-radius: 1%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10%;
+    bottom: 0;
+}
+
+.nav-estilo {
+    display: flex;
+    justify-content: center;
+    background-color: #867c67;
+}
+
+.nav-estilo a {
+    padding: 14px 20px;
+    padding-top: 14px;
+    padding-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #eeeded;
+}
+
+h1 {
+    color: #fffcf6;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    padding-left: 2%;
+    font-size: larger;
+    color: #4e7999;
+}
+
+h5 {
+    padding-left: 2%;
+    color: #38566d;
+}
+
+p {
+    padding-left: 2%;
+}
+
+ul {
+    padding-left: 3%;
+}
+
+hr {
+    width: 96%;
+    margin:0 auto;
+}
